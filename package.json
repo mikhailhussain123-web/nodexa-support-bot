@@ -1,0 +1,19 @@
+{
+  "name": "nodexa-support-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nodexa support server bot: tickets, transcripts and member messages.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/store.js && node --check src/transcript.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1"
+  }
+}
